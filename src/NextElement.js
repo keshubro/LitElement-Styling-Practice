@@ -15,7 +15,7 @@ export class NextElement extends LitElement
     {
         return css`
             :host{
-                background-color: red;
+                background-color: var(--themeColor);
             }
 
             .mydiv{
